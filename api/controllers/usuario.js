@@ -9,7 +9,7 @@ export const getUsers = (_, res) => {
     return res.status(200).json(data);
   });
 };
-/*
+
 export const addUser = (req, res) => {
   const q =
     "INSERT INTO usuarios(`nome`, `email`, `fone`, `data_nascimento`) VALUES(?)";
@@ -54,4 +54,4 @@ export const deleteUser = (req, res) => {
 
     return res.status(200).json("Usuário deletado com sucesso.");
   });
-};*/
+};
